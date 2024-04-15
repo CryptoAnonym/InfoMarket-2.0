@@ -19,7 +19,10 @@ You need to download all files.
 InfoMarket-Windows.rar - separate program, no other files required - compilation windows (tkinter)
 
 [PL]
-Buduję aplikację "infoMarket" w Pythonie.
+Buduję aplikację "infoMarket 2.0" 
+
+Aplikacja zyska sporo nowych funkcji. Więcej informacji w przyszłości
+
 Aplikacja potrafi:
 - przegladać coinpaprica
 - przeglądać rynki na giełdzie ZONDA
