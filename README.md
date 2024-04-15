@@ -1,4 +1,4 @@
-# infoMarket (upgrade 01.10.2022r)
+# infoMarket (upgrade 16.04.2024r)
 Quick view of crypto markets.
 Open infomarket.py 
 
