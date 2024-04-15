@@ -16,7 +16,7 @@ def eth():
     print(" **** Aktualny nr bloku Ethereum: " + str(nr_bloku) +" ****\n")
     print(" Aktualna cena ETH: " + str(eth_price)[0:7] + " |USD|")
     print(" Aktualna cena gazu: " + str(round(gwei, 2)) + " Gwei\n")
-
+ 
 
     def eth_balans(wallet):  
 
