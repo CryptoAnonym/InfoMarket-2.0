@@ -7,6 +7,7 @@ from ethereum import eth
 from paprika import paprika, paprica_price_print
 from cal import cal
 from metals import metals
+from btc import BTC
 
 
 while True:
@@ -17,10 +18,11 @@ while True:
   print("""
     info - ogolne informacje o rynku
     paprika - informacje o krypto z serwisu coinpaprica
-    zonda - wyszukiwarka rynkow na gieldzie ZONDA
     nbp - kursy walut z Narodowego Banku Polskiego
+    btc - przegląd sieci Bitcoin    
     eth - przeglad sieci Ethereum
     cal - kalkulator wymian (krypto-fiat, krypto-krypto, fiat-fiat)
+    zonda - wyszukiwarka rynkow na gieldzie ZONDA
     exit - wyjscie
 
     """)
@@ -34,6 +36,8 @@ while True:
     exchange()
   elif action.upper() == "INFO":
     global_info()
+  elif action.upper() == "BTC":
+    BTC()  
   elif action.upper() == "NBP":
     nbp()
   elif action.upper() == "ETH":
